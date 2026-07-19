@@ -1,0 +1,51 @@
+.main {
+  width: 250px;
+  height: 350px;
+  align-items: center;
+  background-color: #512676;
+}   
+.top input{
+    margin:10px 10px 10px 10px;
+    width: 220px;
+    height:50px;
+    background-color: #a477db;
+    color: white;
+}       
+.buttons{
+    cursor: pointer;
+    margin: 10px 10px 10px 10px;
+    width: 225px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.row :hover{
+    background-color: rgb(191, 113, 236);
+}
+.num{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(76, 74, 74);
+    color: white;
+    background-color: rgb(206, 108, 247);
+    border-radius: 100%
+}
+.sim{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(76, 74, 74);
+    color: white;
+    background-color: rgb(173, 126, 223);
+    border-radius: 100%
+}
+
+
+ 

@@ -1,0 +1,11 @@
+body{
+    background-image: url("/class/image/mc_logo.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+h1{
+    color: black(206,78,206);
+    text-align: center;
+}

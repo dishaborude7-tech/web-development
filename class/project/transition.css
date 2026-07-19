@@ -1,0 +1,40 @@
+.main{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(40, 241, 198);
+    margin:100px auto auto 420px;
+    padding: 40px;
+    border: 2px solid black;
+    transition-property: width;
+    transition-duration: 2s;
+    display: flex;
+
+}
+
+
+.inside{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(237, 56, 144);
+    border: 2px solid black;
+    margin: auto;
+    padding: 40px;
+    transition-property: width;
+    transition-duration: 2s;
+    display: flex;
+}
+
+
+.main:hover{
+    width: 400px;
+    background-color: rgb(40, 241, 198);
+}
+
+
+.inside:hover{
+    transition-property: transform ,background-color;
+    transition-duration: 2s;
+    transform: rotate(45deg);
+    background-color: rgb(191, 66, 249);   
+
+}

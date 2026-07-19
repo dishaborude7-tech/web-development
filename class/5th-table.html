@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <title>table tag</title>
+    </head>
+    <body>
+        <h1 align="center">Table Tag</h1>
+        <table border="5" width="100%"><!--table use to create table, border is used to give border to table-->
+           <tr valign="top" height="5" ><!--tr use to create row-->
+                <td> <b>Name</b></td><!--td use to create column-->
+                <td> <b>Age</b></td>
+                <Td> <b>City</b></Td>
+            </tr>
+             <tr valign="top" height="50" ><!--valign is used to align row-->
+                <td> Krutika</td>
+                <td> 20</td>
+                <Td> Pune</Td>
+             </tr> 
+            <tr valign="top" height="50">
+                <td> Disha</td>
+                <td> 18</td>
+                <Td> Pune</Td> 
+            </tr> 
+
+        </table>
+
+        <table border="2" width="100%" height="50%" align="center"><!--align is used to align table-->
+            <tr bgcolor="green" align="center"><!--bgcolor is used to give background color to table, align is used to align text in table-->
+                <th>student id</th>
+                <th>name</th>
+                <th>marks</th>
+                <th>address</th>
+                <th>gender</th>
+                <th>contact</th>
+            </tr>
+            <tr bgcolor="lightblue" align="center" >
+                <td>101</td>
+                <td>ayaan khan</td>
+                <td>85</td>
+                <td>pune</td>
+                <td>Male</td>
+                <td>9876543210</td>
+            </tr>
+            <tr bgcolor="yellow" align="center">
+                <td>102</td>
+                <td>neha sharma</td>
+                <td>92</td>
+                <td>mumbai</td>
+                <td>Female</td>
+                <td>9123456780</td>
+            </tr>
+            <tr bgcolor="pink" align="center">
+                <td>103</td>
+                <td>rohan patel</td>
+                <td>78</td>
+                <td>nashik</td>
+                <td>Male</td>
+                <td>9988776655</td>
+            </tr>
+            <tr bgcolor="tan" align="center">
+                <td>104</td>
+                <td>sara sheikh</td>
+                <td>88</td>
+                <td>nagpur</td>
+                <td>Female</td>
+                <td>9090909090</td>
+            </tr>
+        </table>
+        <!--rowspan-->
+        <table border="1" width="100%">
+            <tr>
+                <th>sr no.</th>
+                <th>name</th>
+                <th>age</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td rowspan="2">krutika</td><!--rowspan is used to merge rows-->
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>20</td>
+            </tr>
+        </table>
+        <!--colspan-->
+        <table border="1" width="100%"> 
+            <tr>
+                <th>sr no.</th>
+                <th >name</th>
+                <th>age</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td colspan="2">krutika</td><!--colspan is used to merge cells-->
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>disha</td>
+                <td>18</td>
+            </tr>
+        </table>
+	<!--TASK-->
+	
+	<table border="1">
+        <tr>
+            <th rowspan="2">Student</th>
+            <th colspan="2">Marks</th>
+        </tr>
+        <tr>
+            <th >Math</th>
+            <th>Science</th>
+        </tr>
+        <tr>
+            <td>Rahul</td>
+            <td>85</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>Priya</td>
+            <td>88</td>
+            <td>92</td>
+        </tr>
+    </table>
+
+		
+    </body>
+</html>

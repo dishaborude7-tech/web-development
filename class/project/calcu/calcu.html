@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+    </head>
+    <link rel="stylesheet" type="text/css" href="calcu.css">
+    <body>
+       <div class="main">
+            <div class="top">
+                <input type="text" id="display" readonly>
+            </div>
+            <div class="buttons">
+                <div class="row">
+                    <div onclick="clearDisplay()" class="sim" style="background-color: rgb(141, 2, 200);">AC</div>
+                    <div onclick="appendToDisplay('7')" class="num">7</div>
+                    <div onclick="appendToDisplay('4')" class="num">4</div>
+                    <div onclick="appendToDisplay('1')" class="num">1</div>
+                    <div onclick="appendToDisplay('0')" class="num">0</div>
+                </div>
+                <div class="row">
+                    <div onclick="appendToDisplay('()')" class="sim">( )</div>
+                    <div onclick="appendToDisplay('8')" class="num">8</div>
+                    <div onclick="appendToDisplay('5')" class="num">5</div>
+                    <div onclick="appendToDisplay('2')" class="num">2</div>
+                    <div onclick="appendToDisplay('.')" class="sim">.</div>
+                </div>
+                <div class="row">
+                    <div onclick="appendToDisplay('%')" class="sim">%</div>                        
+                    <div onclick="appendToDisplay('9')" class="num">9</div>
+                    <div onclick="appendToDisplay('6')" class="num">6</div>
+                    <div onclick="appendToDisplay('3')" class="num">3</div>
+                    <div onclick="del()" class="sim" style="background-color: rgb(141, 2, 200);">DEL</div>
+                </div>
+                <div class="row">
+                    <div onclick="appendToDisplay('/')" class="sim">/</div>
+                    <div onclick="appendToDisplay('*')" class="sim">x</div>
+                    <div onclick="appendToDisplay('-')" class="sim">-</div>
+                    <div onclick="appendToDisplay('+')" class="sim">+</div> 
+                    <div onclick="calculate()" class="sim">=</div>
+                </div>
+                
+            
+                
+            </div>
+        </div>
+
+        <script src="calcu.js"></script>
+</html>
